@@ -1,0 +1,35 @@
+{
+  "collection": "Size",
+  "modes": ["Default"],
+  "spacing": {
+    "spacing/0": 0,
+    "spacing/2": 2,
+    "spacing/4": 4,
+    "spacing/8": 8,
+    "spacing/12": 12,
+    "spacing/16": 16,
+    "spacing/20": 20,
+    "spacing/24": 24,
+    "spacing/32": 32,
+    "spacing/40": 40,
+    "spacing/48": 48,
+    "spacing/64": 64,
+    "spacing/80": 80,
+    "spacing/96": 96,
+    "spacing/128": 128
+  },
+  "spacingScopes": ["WIDTH_HEIGHT", "GAP"],
+  "radius": {
+    "radius/s": 4,
+    "radius/m": 8,
+    "radius/l": 16,
+    "radius/xl": 24
+  },
+  "radiusScopes": ["CORNER_RADIUS"],
+  "stroke": {
+    "stroke/subtle": 0.5,
+    "stroke/hairline": 1,
+    "stroke/thick": 2
+  },
+  "strokeScopes": ["STROKE_FLOAT"]
+}

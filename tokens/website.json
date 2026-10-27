@@ -1,0 +1,44 @@
+{
+  "collection": "Website",
+  "modes": ["desktop", "tablet", "mobile"],
+  "showcaseViewports": {
+    "desktop": 1280,
+    "tablet": 1080,
+    "mobile": 400
+  },
+  "variables": {
+    "min width": {
+      "scopes": ["WIDTH_HEIGHT"],
+      "values": { "desktop": 1081, "tablet": 768, "mobile": 1 }
+    },
+    "max width": {
+      "scopes": ["WIDTH_HEIGHT"],
+      "values": { "desktop": 1440, "tablet": 1080, "mobile": 767 }
+    },
+    "hor padding": {
+      "scopes": ["GAP"],
+      "values": { "desktop": 64, "tablet": 48, "mobile": 20 }
+    },
+    "section/pad/L": {
+      "scopes": ["GAP"],
+      "values": { "desktop": 128, "tablet": 96, "mobile": 80 },
+      "usage": "Signature moment sections only"
+    },
+    "section/pad/M": {
+      "scopes": ["GAP"],
+      "values": { "desktop": 96, "tablet": 80, "mobile": 64 },
+      "usage": "Standard section vertical padding"
+    },
+    "section/pad/S": {
+      "scopes": ["GAP"],
+      "values": { "desktop": 64, "tablet": 48, "mobile": 40 },
+      "usage": "Strips and compact bands"
+    }
+  },
+  "containerContract": {
+    "sizing": "FILL",
+    "bind": ["Website/min width", "Website/max width"],
+    "contentPadding": ["Website/hor padding"],
+    "modeRule": "Set Website collection mode (desktop|tablet|mobile) on each breakpoint variant so min/max/padding resolve."
+  }
+}

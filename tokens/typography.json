@@ -1,0 +1,62 @@
+{
+  "collection": "Typography",
+  "modes": ["desktop", "tablet", "mobile"],
+  "fonts": {
+    "font/family/body": {
+      "value": "Inter",
+      "scopes": ["FONT_FAMILY"],
+      "usedBy": ["Copy/*", "Small/*"]
+    },
+    "font/family/display": {
+      "value": "Source Serif 4",
+      "scopes": ["FONT_FAMILY"],
+      "usedBy": ["Heading/*"]
+    }
+  },
+  "fontSize": {
+    "size/heading/h1": { "desktop": 72, "tablet": 56, "mobile": 40 },
+    "size/heading/h2": { "desktop": 56, "tablet": 40, "mobile": 32 },
+    "size/heading/h3": { "desktop": 40, "tablet": 32, "mobile": 28 },
+    "size/heading/h4": { "desktop": 32, "tablet": 28, "mobile": 24 },
+    "size/heading/h5": { "desktop": 24, "tablet": 20, "mobile": 20 },
+    "size/heading/h6": { "desktop": 20, "tablet": 18, "mobile": 18 },
+    "size/copy/xl": { "desktop": 24, "tablet": 20, "mobile": 20 },
+    "size/copy/l": { "desktop": 20, "tablet": 18, "mobile": 18 },
+    "size/copy/m": { "desktop": 18, "tablet": 16, "mobile": 16 },
+    "size/copy/s": { "desktop": 16, "tablet": 16, "mobile": 16 },
+    "size/small/info": { "desktop": 14, "tablet": 14, "mobile": 14 },
+    "size/small/footnote": { "desktop": 12, "tablet": 12, "mobile": 12 },
+    "size/small/caption": { "desktop": 10, "tablet": 10, "mobile": 10 }
+  },
+  "lineHeight": {
+    "line-height/heading/h1": { "desktop": 90, "tablet": 72, "mobile": 48 },
+    "line-height/heading/h2": { "desktop": 70, "tablet": 48, "mobile": 40 },
+    "line-height/heading/h3": { "desktop": 48, "tablet": 40, "mobile": 36 },
+    "line-height/heading/h4": { "desktop": 40, "tablet": 36, "mobile": 32 },
+    "line-height/heading/h5": { "desktop": 32, "tablet": 28, "mobile": 28 },
+    "line-height/heading/h6": { "desktop": 28, "tablet": 24, "mobile": 24 },
+    "line-height/copy/xl": { "desktop": 36, "tablet": 30, "mobile": 30 },
+    "line-height/copy/l": { "desktop": 30, "tablet": 28, "mobile": 28 },
+    "line-height/copy/m": { "desktop": 28, "tablet": 24, "mobile": 24 },
+    "line-height/copy/s": { "desktop": 24, "tablet": 24, "mobile": 24 },
+    "line-height/small/info": { "desktop": 20, "tablet": 20, "mobile": 20 },
+    "line-height/small/footnote": { "desktop": 16, "tablet": 16, "mobile": 16 },
+    "line-height/small/caption": { "desktop": 14, "tablet": 14, "mobile": 14 }
+  },
+  "textStyles": [
+    "Heading/H1/Regular", "Heading/H1/Bold",
+    "Heading/H2/Regular", "Heading/H2/Bold",
+    "Heading/H3/Regular", "Heading/H3/Bold",
+    "Heading/H4/Regular", "Heading/H4/Bold",
+    "Heading/H5/Regular", "Heading/H5/Bold",
+    "Heading/H6/Regular", "Heading/H6/Bold",
+    "Copy/XL/Regular", "Copy/XL/Medium",
+    "Copy/L/Regular", "Copy/L/Medium",
+    "Copy/M/Regular", "Copy/M/Medium",
+    "Copy/S/Regular", "Copy/S/Medium",
+    "Small/Info/Regular", "Small/Info/Medium",
+    "Small/Footnote/Regular", "Small/Footnote/Medium",
+    "Small/Caption/Regular", "Small/Caption/Medium"
+  ],
+  "copyLetterSpacingPx": -0.5
+}
